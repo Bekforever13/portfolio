@@ -53,7 +53,7 @@ This repository contains the source code for my personal portfolio website. Here
 If you have any questions or suggestions, feel free to contact me:
 
 - Email: Aydarbaev.bekpolat@gmail.com
-- LinkedIn: (https://www.linkedin.com/in/bekpolat-aydarbaev-037325274)]
+- LinkedIn: [Bekpolat Aydarbaev](https://www.linkedin.com/in/bekpolat-aydarbaev-037325274)
 - Telegram: [@bekforever](https://t.me/bekforever)
 
 ## License
