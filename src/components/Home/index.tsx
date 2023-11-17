@@ -7,22 +7,8 @@ import { PacmanLoader } from 'react-spinners'
 
 const Home: React.FC = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['e', 'k', 'p', 'o', 'l', 'a', 't']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ]
+  const nameArray = 'ekpolat'.split('')
+  const jobArray = 'Web developer'.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {

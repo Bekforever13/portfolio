@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
         <div className="text-zone">
           <h1>
             <AnimatedLetters
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={'Contact me'.split('')}
               letterClass={letterClass}
               idx={15}
             />
