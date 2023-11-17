@@ -1,61 +1,61 @@
 {
   "portfolio": [
     {
-      "cover": "/public/bookie/photo.png",
+      "cover": "/bookie/photo.png",
       "title": "Bookie",
       "description": "React, TypeScript, Zustand, React Query, Sass, Ant Design",
       "url": "https://bookie-beta.vercel.app/"
     },
     {
-      "cover": "/public/baraka_job/photo.png",
+      "cover": "/baraka_job/photo.png",
       "title": "Baraka JOB",
       "description": "React, TypeScript, Redux,RTK Query, TailwindCSS, Ant Design",
       "url": "https://crm-baraka-job.vercel.app/"
     },
     {
-      "cover": "/public/clothes_shop/photo (1).png",
+      "cover": "/clothes_shop/photo (1).png",
       "title": "Clothes Shop",
       "description": "React, TypeScript, TailwindCSS, Ant Design",
       "url": "https://testoviy.vercel.app/"
     },
     {
-      "cover": "/public/sales_up/photo.png",
+      "cover": "/sales_up/photo.png",
       "title": "Sales UP",
       "description": "React, Redux, Ant Design",
       "url": "https://sales-up-reupload.vercel.app/"
     },
     {
-      "cover": "/public/crm_freelance/photo (1).png",
+      "cover": "/crm_freelance/photo (1).png",
       "title": "CRM freelance",
       "description": "React, TypeScript, Redux ,Ant Design",
       "url": "https://crm-freelance-one.vercel.app/"
     },
     {
-      "cover": "/public/crm_with_charts/photo (1).png",
+      "cover": "/crm_with_charts/photo (1).png",
       "title": "CRM",
       "description": "React, TypeScript, Redux, Ant Design, Chartsjs 2",
       "url": "https://crm-with-charts.vercel.app/"
     },
     {
-      "cover": "/public/games_info/photo (1).png",
+      "cover": "/games_info/photo (1).png",
       "title": "Games Info - Pet project",
       "description": "React, TypeScript, Redux",
       "url": "https://games-info-three.vercel.app/"
     },
     {
-      "cover": "/public/online_shop/photo (1).png",
+      "cover": "/online_shop/photo (1).png",
       "title": "Online Shop - Pet project",
       "description": "React, Redux",
       "url": "https://online-shop-wheat-zeta.vercel.app/"
     },
     {
-      "cover": "/public/react-pizza/photo (1).png",
+      "cover": "/react-pizza/photo (1).png",
       "title": "React Pizza - Pet project",
       "description": "React, TypeScript, Redux",
       "url": "https://react-pizza-sooty.vercel.app/"
     },
     {
-      "cover": "/public/react-sneakers/photo.png",
+      "cover": "/react-sneakers/photo.png",
       "title": "React Sneaker - Pet project",
       "description": "React, TypeScript, Redux",
       "url": "https://sneakers-react-bek.vercel.app/"
