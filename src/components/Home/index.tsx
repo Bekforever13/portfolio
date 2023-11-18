@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import { AnimatedLetters } from '../AnimatedLetters'
-import { Logo } from './Logo'
+import image from '../../assets/images/me.jpg'
 import { PacmanLoader } from 'react-spinners'
 
 const Home: React.FC = () => {
@@ -47,7 +47,9 @@ const Home: React.FC = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="logo-container">
+          <img src={image} alt="photo" className="solid-logo" />
+        </div>
       </div>
       <PacmanLoader className="loader" color="#ffd700" />
     </>

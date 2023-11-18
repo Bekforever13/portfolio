@@ -17,7 +17,7 @@
 
       .logo_b {
         color: #2b3275;
-        text-shadow: -2px 2px 2px #ffd700,;
+        text-shadow: -2px 2px 2px #ffd700, ;
       }
 
       &:before {
@@ -83,6 +83,33 @@
       }
     }
   }
+
+  .logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    padding-top: 50px;
+
+    .solid-logo {
+      position: absolute;
+      top: auto;
+      right: auto;
+      border-radius: 30px;
+      bottom: bottom;
+      left: 0;
+      height: auto;
+      margin: auto;
+      width: 100%;
+      z-index: 1;
+    }
+  }
 }
 
 
@@ -95,38 +122,32 @@
     display: none;
   }
 
-  .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
-    padding: 10px;
-    box-sizing: border-box;
-  }
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
 
-  .home-page .flat-button {
-    float: none;
-    display: block;
-    margin: 20px auto 0 auto;
-    width: 124px;
-  }
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 124px;
+    }
 
-  .logo-container {
-    position: relative;
-    width: 100px;
-    height: auto;
-    top: 50px;
-    right: 0;
-    box-sizing: border-box;
-    margin: auto;
-    left: 0;
-    transform: translateY(500px);
-  }
+    .logo-container {
+      position: relative;
+      width: 300px;
+      height: auto;
+      top: 50px;
+      left: 0;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+    }
 
-  .logo-container img {
-    float: inline-end;
-    position: absolute;
-    top: auto;
-    left: 0;
-    margin: auto;
   }
 }
