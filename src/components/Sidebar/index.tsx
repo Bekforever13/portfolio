@@ -1,8 +1,8 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import React from 'react'
+import React, { useState } from 'react'
+import { MdAssuredWorkload, MdClose } from 'react-icons/md'
 import {
-  AiFillEye,
   AiFillHome,
   AiFillInfoCircle,
   AiOutlineGithub,
@@ -10,27 +10,54 @@ import {
   AiOutlineLinkedin,
   AiOutlineMail,
 } from 'react-icons/ai'
+import { GiHamburgerMenu } from 'react-icons/gi'
 import { BsTelegram } from 'react-icons/bs'
 
 const Sidebar: React.FC = () => {
+  const [showNav, setShowNav] = useState(false)
+
+  const onClickHamburger = () => setShowNav(true)
+  const onCloseHamburger = () => setShowNav(false)
+
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link onClick={onCloseHamburger} className="logo" to="/">
         <h1>Bekpolat</h1>
       </Link>
-      <nav>
-        <NavLink end to="/">
+      <nav className={showNav ? 'mobile-show' : ''}>
+        <NavLink onClick={onCloseHamburger} end to="/">
           <AiFillHome />
         </NavLink>
-        <NavLink end to="/about" className="about-link">
+        <NavLink
+          onClick={onCloseHamburger}
+          end
+          to="/about"
+          className="about-link"
+        >
           <AiFillInfoCircle />
         </NavLink>
-        <NavLink end to="/portfolio" className="portfolio-link">
-          <AiFillEye />
+        <NavLink
+          onClick={onCloseHamburger}
+          end
+          to="/portfolio"
+          className="portfolio-link"
+        >
+          <MdAssuredWorkload />
         </NavLink>
-        <NavLink end to="/contact" className="contact-link">
+        <NavLink
+          onClick={onCloseHamburger}
+          end
+          to="/contact"
+          className="contact-link"
+        >
           <AiOutlineMail />
         </NavLink>
+        <MdClose
+          color="#ffd700"
+          size="24"
+          onClick={onCloseHamburger}
+          className="close-icon"
+        />
       </nav>
       <ul>
         <li>
@@ -57,6 +84,12 @@ const Sidebar: React.FC = () => {
           </a>
         </li>
       </ul>
+      <GiHamburgerMenu
+        onClick={onClickHamburger}
+        className="hamburger-icon"
+        color="#ffd700"
+        size="24"
+      />
     </div>
   )
 }

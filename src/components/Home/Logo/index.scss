@@ -11,28 +11,16 @@
   margin: auto;
   padding-top: 50px;
 
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    bottom: 0;
-  }
-
   .solid-logo {
     position: absolute;
     top: auto;
     right: auto;
-    bottom: auto;
+    border-radius: 30px;
+    bottom: bottom;
     left: 0;
+    height: auto;
     margin: auto;
     width: 100%;
-    opacity: 0;
-    transform: rotateZ(30deg) !important;
     z-index: 1;
   }
-}
-
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10;
 }

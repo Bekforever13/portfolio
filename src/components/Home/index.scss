@@ -119,13 +119,13 @@
     box-sizing: border-box;
     margin: auto;
     left: 0;
+    transform: translateY(500px);
   }
 
-  .logo-container svg {
+  .logo-container img {
+    float: inline-end;
     position: absolute;
     top: auto;
-    right: auto;
-    bottom: auto;
     left: 0;
     margin: auto;
   }
