@@ -9,11 +9,6 @@
   overflow: hidden;
 }
 
-.my-name {
-  color: #ffd700;
-  font-size: 18px;
-}
-
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
@@ -41,25 +36,31 @@
     transform: translateZ(100px);
     color: #dd0031;
   }
+
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
     color: #f06529;
+
     img {
       transform: rotate(270deg);
     }
   }
+
   .face3 {
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
     color: #28a4d9;
   }
+
   .face4 {
     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
     color: #5ed4f4;
   }
+
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
     color: #efd81d;
   }
+
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
     color: #ec4d28;
@@ -67,22 +68,28 @@
 }
 
 @keyframes spincube {
+
   from,
   to {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
+
   16% {
     transform: rotateY(-90deg) rotateZ(90deg);
   }
+
   33% {
     transform: rotateY(-90deg) rotateX(90deg);
   }
+
   50% {
     transform: rotateY(-180deg) rotateZ(90deg);
   }
+
   66% {
     transform: rotateY(-270deg) rotateX(90deg);
   }
+
   83% {
     transform: rotateX(90deg);
   }

@@ -31,8 +31,7 @@ const About: React.FC = () => {
             />
           </h1>
           <p>
-            Hello there! I'm <span className="my-name">Bekpolat</span>, a
-            passionate and creative frontend developer with a keen eye for
+            I'm a passionate and creative frontend developer with a keen eye for
             design and a love for crafting seamless user experiences. With a
             background in turning ideas into visually appealing and functional
             websites, I thrive on the challenge of bringing concepts to life in
