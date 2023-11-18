@@ -8,7 +8,7 @@ import { PacmanLoader } from 'react-spinners'
 const Home: React.FC = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = 'ekpolat'.split('')
-  const jobArray = 'Web developer'.split('')
+  const jobArray = 'Frontend developer'.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
               idx={22}
             />
           </h1>
-          <h2>Frontend Developer</h2>
+          <h2>React, TypeScript, JavaScript</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
