@@ -1,0 +1,42 @@
+.dashboard {
+	margin: 100px 0 0 200px;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		row-gap: 15px;
+
+		input,
+		textarea {
+			min-width: 500px;
+			padding: 10px 20px;
+			font-size: 18px;
+			border-radius: 16px;
+			resize: none;
+			outline: none;
+		}
+
+		input[type="file"] {
+			color: white;
+		}
+
+		.btns {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+
+			button {
+				width: fit-content;
+				padding: 10px 20px;
+				border-radius: 20px;
+				background-color: #ffd700;
+				font-size: 18px;
+				cursor: pointer;
+
+				&:hover {
+					opacity: 0.9;
+				}
+			}
+		}
+	}
+}
